@@ -5,6 +5,7 @@ package cusearch
 
 import (
 	"context"
+	"fmt"
 	"html/template"
 	"log"
 	"net/http"
