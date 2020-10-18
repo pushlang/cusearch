@@ -1,4 +1,4 @@
-// +build OMIT
+// -build OMIT
 // For example, http://localhost:8080/search?q=golang&timeout=1s
 
 package cusearch
