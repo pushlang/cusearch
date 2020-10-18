@@ -1,3 +1,6 @@
+// +build OMIT
+// For example, http://localhost:8080/search?q=golang&timeout=1s
+
 package cusearch
 
 import (
@@ -14,6 +17,7 @@ import (
 func Run() {
 	http.HandleFunc("/search", handleSearch)
 	log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println("http://localhost:8080/search?q=golang&timeout=1s")
 }
 
 func handleSearch(w http.ResponseWriter, req *http.Request) {
