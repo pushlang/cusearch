@@ -16,7 +16,7 @@ type Result struct {
 }
 
 func Search(ctx context.Context, query string) (Results, error) {
-	req, err := http.NewRequest("GET", "https://www.googleapis.com/customsearch/v1?key=AIzaSyB7JRboB996gg-ooCGlDB8DfTIaIVD1ZRg", nil)
+	req, err := http.NewRequest("GET", "https://www.googleapis.com/customsearch/v1?key=gIzaSyB7JRboB996gA-goCGlDB8DfTIaIVD1ZRo", nil)
 	
 	if err != nil {
 		return nil, err
